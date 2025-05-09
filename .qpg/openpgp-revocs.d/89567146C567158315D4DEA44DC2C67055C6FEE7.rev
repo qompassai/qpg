@@ -1,0 +1,28 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub   ed25519/0x4DC2C67055C6FEE7 2025-04-15 [S] [expires: 2025-07-14]
+      Key fingerprint = 8956 7146 C567 1583 15D4  DEA4 4DC2 C670 55C6 FEE7
+uid                            Matt A. Porter (Qompass AI) <map@qompass.ai>
+
+A revocation certificate is a kind of "kill switch" to publicly
+declare that a key shall not anymore be used.  It is not possible
+to retract such a revocation certificate once it has been published.
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.  For details see the description of
+of the gpg command "--generate-revocation" in the GnuPG manual.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before importing and publishing this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: This is a revocation certificate
+
+iHgEIBYKACAWIQSJVnFGxWcVgxXU3qRNwsZwVcb+5wUCZ/331wIdAAAKCRBNwsZw
+Vcb+5/+vAP0Sj5ERwEL0nzkHXWXzWEJ/tQIaCZCQGrQM/P8gncQRYgEAqdLWa4zS
+FiHUZu6RRvRd1a2VJXtPmHlkYHKUi8SK3wg=
+=HRuB
+-----END PGP PUBLIC KEY BLOCK-----

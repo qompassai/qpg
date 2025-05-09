@@ -1,0 +1,26 @@
+# List of allowed ssh keys.  Only keys present in this file are used
+# in the SSH protocol.  The ssh-add tool may add new entries to this
+# file to enable them; you may also add them manually.  Comment
+# lines, like this one, as well as empty lines are ignored.  Lines do
+# have a certain length limit but this is not serious limitation as
+# the format of the entries is fixed and checked by gpg-agent. A
+# non-comment line starts with optional white spaces, followed by the
+# keygrip of the key given as 40 hex digits, optionally followed by a
+# caching TTL in seconds, and another optional field for arbitrary
+# flags.   Prepend the keygrip with an '!' mark to disable it.
+
+# Ed25519 key added on: 2025-01-02 02:03:40
+# Fingerprints:  MD5:51:64:70:20:1c:09:d3:f6:30:88:4e:4d:85:59:50:1c
+#                SHA256:Av0LOFgJ8rHb/JWPsh5cT9KyDYbOxD4wuk/uFu0U6WY
+BC0C5C85D1C5CE0E5D5B937BB96E175CE18D6F38 0
+BAF971FA4E95BC79A86ECC26DCF93DC21B769374
+5A78D15C68D694EE9E811111408F8EAB0971425D
+BC0C5C85D1C5CE0E5D5B937BB96E175CE18D6F38
+BAF971FA4E95BC79A86ECC26DCF93DC21B769374
+5A78D15C68D694EE9E811111408F8EAB0971425D
+
+9A1031D1BB44DDB26A490AD95B9124625B618DF4
+5A78D15C68D694EE9E811111408F8EAB0971425D
+BAF971FA4E95BC79A86ECC26DCF93DC21B769374
+8DFBF2554DF81DEBA31A961DCE4B594A7122B580
+36FD5C5F7574B8235B3EAE7FCF5F1B3E58271B6A
