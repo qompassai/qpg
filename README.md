@@ -1,4 +1,4 @@
-<!-- ~/qompassai/c/qpg/README.md -->
+<!-- ~/qompassai/qpg/qpg/README.md -->
 <!-- ------------------------- -->
 <!-- Copyright (C) 2025 Qompass AI, All rights reserved -->
 
@@ -16,6 +16,7 @@
 <<p align="center">
 
 ![Repository Views](https://komarev.com/ghpvc/?username=qompassai-qpg)
+![GitHub all releases](https://img.shields.io/github/downloads/qompassai/qpg/total?style=flat-square)
 
 <br>
 <a href="https://www.gnu.org/licenses/agpl-3.0"><img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg" alt="License: AGPL v3"></a>
